@@ -1,0 +1,577 @@
+/* For Tabs */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+
+}
+
+.social-area {
+    margin-top: 15px;
+}
+
+.container{
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px auto;
+}
+section{
+    padding: 80px 0px;
+}
+header#main-header {
+    background: #262626;
+    height: 100px;
+    width: 157%;
+}
+ul.main-menu li {
+    list-style-type: none;
+    float: left;
+}
+
+ul.main-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 38px;
+    transition: all 0.4s ease;
+}
+ul.main-menu li a:hover{
+    color: #ff6760;
+}
+.logo-area {
+    float: left;
+    width: 18%;
+    padding: 20px;
+}
+
+.logo-area img {
+    width: 100%;
+}
+
+ul.main-menu {
+    width: 60%;
+    float: right;
+    padding: 35px;
+}
+
+
+section#banner {
+    background: #2a2a2a;
+    width: 157%;
+}
+
+.banner-contents {
+    text-align: center;
+}
+.banner-contents p{
+    font-family: 'Lato', sans-seri;
+    color: #d1d1d1;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.banner-contents h2 {
+    color: #fff;
+    font-weight: 200;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.banner-contents span {
+    font-weight: 700;
+}
+button#portfolio {
+    border: none;
+    padding: 14px 40px;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 700;
+    background: #ff6760;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button#portfolio:hover{
+    background: #fff;
+    color: #ff6760;
+}
+section#services {
+    height: 630px;
+    background: #f8f8f8;
+    width: 157%;
+}
+.single-services {
+    width: 50%;
+    text-align: center;
+    float: left;
+    margin-right: 0px;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+
+.single-services i {
+    font-size: 80px;
+    margin-bottom: 25px;
+    color: #e06262;
+    transition: all 0.3s ease;
+}
+.single-services h4 {
+    color: #e06262;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.single-services p {
+    color: #616161;
+    font-size: 25px;
+    line-height: 35px;
+    width: 70%;
+    margin: auto;
+}
+.single-services:last-child{
+    margin-right: 0px;
+}
+.single-services:hover i{
+    transform: scale(1.5);
+    color: #ff6760;
+}
+.sec-title {
+    text-align: center;
+}
+
+.sec-title h2 {
+    color: #616161;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+.sec-title p {
+    font-family: 'Lato', sans-seri;
+    font-weight: 600;
+    color: #616161;
+    font-size: 30px;
+}
+.sec-buttons {
+    text-align: center;
+}
+
+.sec-buttons button {
+    border: none;
+    padding: 10px 16px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    background: #ff6760;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.sec-buttons button:hover{
+    background: #595959;
+}
+#featured-work{
+    width: 157%;
+}
+.image-sec {margin-left: 15%;}
+.image-sec img {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.image-sec img:hover{
+    transform: scale(1.05);
+}
+.last-content {
+    text-align: center;
+    line-height: 40px;
+}
+
+.last-content h2 {
+    font-size: 45px;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.last-content p {
+    color: #7b7b7b;
+    font-size: 28px;
+    line-height: 50px;
+}
+section#last-part {
+    background-color: #313131;
+    height: 200px;
+    width: 157%;
+}
+
+.address p {
+    font-size: 25px;
+}
+
+.address i {
+    color: #ff6760;
+    margin-right: 10px;
+    font-size: 24px;
+}
+.address .fa-tty {
+    margin-left: 20px;
+}
+.social-area .fa-wifi {
+    font-size: 26px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50px;
+    color: #fff;
+    margin-right: 10px;
+    background: #f3b25b;
+}
+.social-area .fa-facebook-f{
+    font-size: 26px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50px;
+    margin-right: 10px;
+    color: #fff;
+    background: #5883c0;
+}
+.social-area .fa-tumblr{
+    font-size: 26px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50px;
+    color: #fff;
+    margin-right: 10px;
+    background: #63bee0;
+}
+.social-area .fa-dribbble {
+    font-size: 26px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50px;
+    color: #fff;
+    margin-right: 10px;
+    background: #63bee0;
+}
+.social-area .fa-pinterest-p{
+    font-size: 26px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50px;
+    color: #fff;
+    background: #d35051;
+}
+.social-area i{
+    transition: all 0.3s ease;
+}
+.social-area i:hover{
+    background: #fff;
+    color: #000;
+}
+footer#footer-last {
+    text-align: center;
+    padding: 25px;
+    background: #FFFFFF;
+    color: #000000;
+    font-size: 24px;
+}
+}
+
+
+
+/* For MObiles */
+
+@media only screen and (max-width: 767px){
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Lobster', cursive;
+    
+    }
+
+.footer-content p {
+    font-size: 35px;
+}
+
+.social-area {
+    margin-top: 20px;
+}
+    .container{
+        width: 1140px;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin: 0px auto;
+    }
+    section{
+        padding: 80px 0px;
+    }
+    header#main-header {
+        background: #262626;
+        height: 120px;
+        width: 380%;
+    }
+    ul.main-menu li {
+        list-style-type: none;
+        float: left;
+    }
+    
+    ul.main-menu li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 27px;
+        font-weight: 600;
+        margin-left: 28px;
+        transition: all 0.4s ease;
+    }
+    ul.main-menu li a:hover{
+        color: #ff6760;
+    }
+    .logo-area {
+        float: left;
+        width: 20%;
+        padding: 19px;
+    }
+
+.logo-area img {
+    width: 100%;
+}
+    
+    ul.main-menu {
+        width: 60%;
+        float: right;
+        padding: 40px;
+    }
+    
+    
+    section#banner {
+        background: #2a2a2a;
+        width: 380%;
+    }
+    
+    .banner-contents {
+        text-align: center;
+    }
+    .banner-contents p{
+        font-family: 'Lato', sans-seri;
+        color: #d1d1d1;
+        font-size: 49px;
+        margin-bottom: 50px;
+    }
+    .banner-contents h2 {
+        color: #fff;
+        font-weight: 200;
+        font-size: 80px;
+        margin-bottom: 30px;
+    }
+    .banner-contents span {
+        font-weight: 700;
+    }
+    button#portfolio {
+        border: none;
+        padding: 14px 40px;
+        text-transform: uppercase;
+        font-size: 32px;
+        font-weight: 700;
+        background: #ff6760;
+        color: #fff;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    button#portfolio:hover{
+        background: #fff;
+        color: #ff6760;
+    }
+    section#services {
+        height: 100%;
+        background: #f8f8f8;
+        width: 380%;
+    }
+    .single-services {
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin-right: 0px;
+        cursor: pointer;
+        margin-bottom: 10%;
+        margin-top: 50px;
+    }
+    
+    .single-services i {
+        font-size: 100px;
+        margin-bottom: 25px;
+        color: #4b4949;
+        transition: all 0.3s ease;
+    }
+    .single-services h4 {
+        color: #c13e3e;
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+    
+    .single-services p {
+        color: #616161;
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .single-services:last-child{
+        margin-right: 40%;
+    }
+    .single-services:hover i{
+        transform: scale(1.5);
+        color: #ff6760;
+    }
+    .sec-title {
+        text-align: center;
+    }
+    
+    .sec-title h2 {
+        color: #616161;
+        margin-bottom: 15px;
+        font-size: 70px;
+    }
+    
+    .sec-title p {
+        font-family: 'Lato', sans-seri;
+        font-weight: 600;
+        color: #616161;
+        font-size: 48px;
+    }
+    .sec-buttons {
+        text-align: center;
+    }
+    
+    .sec-buttons button {
+        border: none;
+        padding: 10px 16px;
+        text-transform: uppercase;
+        font-size: 35px;
+        font-weight: 600;
+        background: #5e5e5e;
+        color: rgb(190, 230, 16);
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .sec-buttons button:hover{
+        background: #595959;
+    }
+    #featured-work{
+        width: 380%;
+    }
+    .image-sec {
+        margin-left: 15%;
+    }
+    .image-sec img {
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .image-sec img:hover{
+        transform: scale(1.05);
+    }
+    .last-content {
+        text-align: center;
+        line-height: 40px;
+    }
+    
+    .last-content h2 {
+        font-size: 60px;
+        color: #e0e0e0;
+    }
+    
+    .last-content p {
+        margin-top: 22px;
+        color: #7e767b;
+        font-size: 35px;
+    }
+    section#last-part {
+        background-color: #313131;
+        height: 249px;
+        width: 380%;
+    }
+    
+    .address p {
+        font-size: 35px;
+    }
+    
+    .address i {
+        color: #ff6760;
+        margin-right: 10px;
+        font-size: 30px;
+    }
+    .address .fa-tty {
+        margin-left: 20px;
+    }
+    .social-area .fa-wifi {
+        font-size: 35px;
+        height: 70px;
+        margin-right: 10px;
+        width: 70px;
+        line-height: 70px;
+        color: #fff;
+        background: #f3b25b;
+    }
+    .social-area .fa-facebook-f{
+        font-size: 35px;
+        height: 70px;
+        width: 70px;
+        margin-right: 10px;
+        line-height: 70px;
+        color: #fff;
+        background: #5883c0;
+    }
+    .social-area .fa-tumblr{
+        font-size: 35px;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        color: #fff;
+        background: #63bee0;
+        margin-right: 10px;
+    }
+    .social-area .fa-dribbble {
+        font-size: 35px;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        color: #fff;
+        margin-right: 10px;
+        background: #63bee0;
+    }
+    .social-area .fa-pinterest-p{
+        font-size: 35px;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        color: #fff;
+        background: #d35051;
+    }
+    .social-area i{
+        transition: all 0.3s ease;
+    }
+    .social-area i:hover{
+        background: #fff;
+        color: #000;
+    }
+    footer#footer-last {
+        text-align: center;
+        padding: 30px;
+        background: #2c2c2c00;
+        color: #865e5e;
+        height: 50px;
+    }
+}
